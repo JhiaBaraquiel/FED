@@ -1,0 +1,118 @@
+.header {
+    width: 100%; /* Make the header take up the full width of the screen */
+    background-color: #0d0d0d; /* Light background color */
+    padding: 20px; /* Padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  .promo {
+    background-color: #00008B; /* Deep blue color */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.1px 0;
+    font-size: 2opx;
+    font-weight: bold;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 99%; /* Adjusted to 100% to span the entire width */
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.1px 0; /* Reduced padding to make the footer thinner */
+    font-size: 10px; /* Reduced font size */
+  }
+
+  .order-container {
+    display: flex;
+    margin: 20px;
+  }
+
+.menu-image
+  {
+   width: 25%;
+   height: 30%;
+   padding: 1em;
+   margin-left: 80px;
+  }
+  
+  .order-form {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #cbd9f8;
+  }
+  
+  .order-table th,
+  .order-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .order-table th {
+    background-color: #220d9c;
+    color: white;
+    text-align: center;
+  }
+  
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tr:hover {
+    background-color: #dddddd;
+  }
+  
+  .order-table button {
+    background-color: #220d9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .order-table button:hover {
+    background-color: #45a049;
+  }
+
+  .order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:  #cbd9f8;
+
+  }
+  
+  .order-summary th, .order-summary td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+  }
+  
+  .order-summary th {
+    background-color: #220d9c;
+    text-align: center;
+    color: white;
+  }
+  
+  .order-summary tfoot td {
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+    text-align: center;
+  }
